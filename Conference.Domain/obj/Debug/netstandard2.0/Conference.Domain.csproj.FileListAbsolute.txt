@@ -1,0 +1,18 @@
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Domain\bin\Debug\netstandard2.0\Conference.Domain.deps.json
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Domain\bin\Debug\netstandard2.0\Conference.Domain.dll
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.csprojAssemblyReference.cache
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.csproj.CoreCompileInputs.cache
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.AssemblyInfoInputs.cache
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.AssemblyInfo.cs
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Domain\bin\Debug\netstandard2.0\Conference.Domain.pdb
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.dll
+D:\IT\SIIC Seria5 .net\W15\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.pdb
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Domain\bin\Debug\netstandard2.0\Conference.Domain.deps.json
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Domain\bin\Debug\netstandard2.0\Conference.Domain.dll
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Domain\bin\Debug\netstandard2.0\Conference.Domain.pdb
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.csprojAssemblyReference.cache
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.csproj.CoreCompileInputs.cache
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.AssemblyInfoInputs.cache
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.AssemblyInfo.cs
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.dll
+d:\IT\SIIC Seria5 .net\GIT UPLOAD\finalproject-MariusSimion79\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.pdb

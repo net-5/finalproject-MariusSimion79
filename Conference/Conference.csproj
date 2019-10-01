@@ -5,6 +5,19 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Models\TalksSpeakers.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Areas\Admin\Views\Workshops\_Layout.cshtml" />
+    <Content Remove="Areas\Admin\Views\Workshops\_ViewImports.cshtml" />
+    <Content Remove="Views\Shared\Index1.cshtml" />
+    <Content Remove="Views\Shared\_ShowSpeakerName.cshtml" />
+    <Content Remove="Views\Sponsors\Details.cshtml" />
+    <Content Remove="Views\Talks\Details.cshtml" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
@@ -25,6 +38,7 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="wwwroot\lib\font-awesome\css\" />
   </ItemGroup>
 
 </Project>

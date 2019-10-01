@@ -31,7 +31,6 @@ namespace Conference.Areas.Admin.Models
         public string CompanyName { get; set; }
         public string CompanyWebsite { get; set; }
         [Required]
-        [MaxLength(20)]
         public string Description { get; set; }
         public string PageSlug { get; set; }
         [Required]

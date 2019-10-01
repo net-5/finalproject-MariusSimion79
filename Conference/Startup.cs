@@ -47,9 +47,11 @@ namespace Conference
             services.AddTransient<IWorkshopRepository, WorkshopRepository>();
             services.AddTransient<IWorkshopService, WorkshopService>();
 
+            services.AddTransient<ISponsorTypeRepository, SponsorTypeRepository>();
+            services.AddTransient<ISponsorTypeService, SponsorTypeService>();
 
-
-
+            services.AddTransient<ISponsorRepository, SponsorRepository>();
+            services.AddTransient<ISponsorService, SponsorService>();
 
 
 

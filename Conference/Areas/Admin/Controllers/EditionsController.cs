@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 using Omu.ValueInjecter;
 
 
-namespace Conference.Controllers
+namespace Conference.Areas.Admin.Controllers
 {
     public class EditionsController : Controller
     {

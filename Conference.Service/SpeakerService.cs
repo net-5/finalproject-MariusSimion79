@@ -36,7 +36,7 @@ namespace Conference.Service
         }
         public Speakers AddSpeaker(Speakers speakerToBeAdded)
         {
-            if (IsUniqueSpeaker(speakerToBeAdded.Name))
+            if (IsUniqueSpeaker(speakerToBeAdded.SpeakerName))
             {
                 return speakersRepository.AddSpeaker(speakerToBeAdded);
             }

@@ -18,5 +18,6 @@ namespace Conference.Domain.Entities
 
         public virtual Speakers Speaker { get; set; }
         public virtual ICollection<Schedules> Schedules { get; set; }
+
     }
 }

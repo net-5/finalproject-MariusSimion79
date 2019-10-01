@@ -53,7 +53,7 @@ namespace Conference.Data
 
         public bool IsUniqueSpeaker(string speakerName)
         {
-            int nr = conferenceContext.Speakers.Count(x => x.Name == speakerName);
+            int nr = conferenceContext.Speakers.Count(x => x.SpeakerName == speakerName);
             if (nr == 0)
             {
                 return true;

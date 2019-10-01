@@ -13,7 +13,6 @@ namespace Conference.Areas.Admin.Models
         [Required]
         [MinLength(2)]
         public string Name { get; set; }
-        [MaxLength(20)]
         public string Description { get; set; }
         public string Prerequisites { get; set; }
         public string Requirements { get; set; }

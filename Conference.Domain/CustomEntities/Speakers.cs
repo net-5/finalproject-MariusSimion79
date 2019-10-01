@@ -6,7 +6,7 @@ namespace Conference.Domain.Entities
 {
     public partial class Speakers
     {
-        public string Name
+        public string SpeakerName
         {
             get { return FirstName + " " + LastName; }
         }

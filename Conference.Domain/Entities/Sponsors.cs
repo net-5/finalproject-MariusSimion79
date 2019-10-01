@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Conference.Domain.Entities
 {
@@ -10,6 +12,8 @@ namespace Conference.Domain.Entities
             SponsorPhoto = new HashSet<SponsorPhoto>();
         }
 
+        [Required]
+        [MaxLength(4)]
         public int Id { get; set; }
         public string Name { get; set; }
         public string Website { get; set; }

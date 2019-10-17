@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Conference.Domain.Entities;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace Conference.Data
 {
@@ -29,7 +30,7 @@ namespace Conference.Data
 
         public IEnumerable<Speakers> GetAllSpeakers()
         {
-            return conferenceContext.Speakers.ToList();
+            return conferenceContext.Speakers.Include(x => x.Talks).Include(x => x.Workshops).ToList();
         }
 
         public Speakers AddSpeaker(Speakers speakerToBeAdded)
@@ -41,7 +42,7 @@ namespace Conference.Data
 
         public Speakers GetSpeakersById(int id)
         {
-            return conferenceContext.Speakers.Find(id);
+            return conferenceContext.Speakers.Include(x => x.Talks).Include(x => x.Workshops).Where(x => x.Id == id).First();
         }
 
         public Speakers Update(Speakers speakerToUpdate)

@@ -13044,11 +13044,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference\\Conference.csproj",
+      "projectUniqueName": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference\\Conference.csproj",
       "projectName": "Conference",
-      "projectPath": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference\\Conference.csproj",
+      "projectPath": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference\\Conference.csproj",
       "packagesPath": "C:\\Users\\Marius\\.nuget\\packages\\",
-      "outputPath": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference\\obj\\",
+      "outputPath": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13067,14 +13067,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj": {
-              "projectPath": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj"
+            "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj": {
+              "projectPath": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj"
             },
-            "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj": {
-              "projectPath": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj"
+            "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj": {
+              "projectPath": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj"
             },
-            "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Service\\Conference.Service.csproj": {
-              "projectPath": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Service\\Conference.Service.csproj"
+            "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Service\\Conference.Service.csproj": {
+              "projectPath": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Service\\Conference.Service.csproj"
             }
           }
         }

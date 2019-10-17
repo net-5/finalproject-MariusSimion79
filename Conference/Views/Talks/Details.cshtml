@@ -1,48 +1,96 @@
 ﻿@model Conference.Domain.Entities.Talks
 
 @{
-    ViewData["Title"] = "Talks";
+    ViewData["Title"] = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Talk details</h1>
 
-<div>
-    <h4>Talks</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Id)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Id)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.SpeakerId)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.SpeakerId)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Edition)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Edition)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 offset-md-2 space-big">
+                <h1 class="title">
+                    @Html.DisplayFor(model => model.Name)
+
+                </h1>
+                <div class="text">
+                    <p>
+                        @Html.DisplayFor(model => model.Description)
+
+
+
+                    </p>
+
+                </div>
+
+                <div class="text-left ws-det">
+                    <p>Location:</p>
+                    <h2> International Hotel, Iasi, Romania </h2>
+
+                    <hr />
+                    <p>Date:</p>
+                    <time>29 February 2020 </time>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3 offset-md-1 bg-mv text-center space">
+                <span class="sub-title">Speaker info</span>
+                <div class="img-responsive img-fluid col-md-4 col-sm-12">
+                    <img src="@string.Format("~/img/speakers/" +@Model.Speaker.FirstName + "-" + @Model.Speaker.LastName + ".png")" asp-append-version="true" class="card-img-top" />
+                </div>
+                <h2 class="text-big text-left">
+                    <a href="@string.Format("/Speakers/Details/" + Model.SpeakerId)">
+                        @Model.Speaker.SpeakerName
+                    </a>
+
+                </h2>
+                <div class="speaker-socials left">
+                    <ul class="speaker-socials text-left">
+
+                        @if (Model.Speaker.Twitter != null)
+
+                        {
+                            <li>
+
+                                <a target="_blank" class="link d-inline" href="@Model.Speaker.Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+
+                        }
+
+
+                        @if (Model.Speaker.Website != null)
+                        {
+                            <li>
+
+                                <a target="_blank" class="link d-inline" href="@Model.Speaker.Website">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </li>
+                        }
+
+                        @if (Model.Speaker.LinkedIn != null)
+                        {
+
+                            <li>
+                                <a target="_blank" class="link d-inline" href="@Model.Speaker.LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                        }
+
+                    </ul>
+
+                </div>
+
+                <div style="height: 30rem"></div>
+                <div class="align-bottom">
+                    <a target="_blank" href="https://www.eventbrite.com" class="btn btn-primary btn-small">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

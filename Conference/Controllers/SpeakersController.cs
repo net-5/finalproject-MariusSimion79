@@ -14,9 +14,10 @@ namespace Conference.Controllers
     public class SpeakersController : Controller
     {
         private readonly ISpeakerService speakerService;
-        public SpeakersController(ISpeakerService speakerService)
+        public SpeakersController(ISpeakerService speakerService, IWorkshopService workshopService)
         {
             this.speakerService = speakerService;
+
         }
 
 

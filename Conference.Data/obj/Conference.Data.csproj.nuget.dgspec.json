@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj": {}
+    "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj": {}
   },
   "projects": {
-    "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj": {
+    "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj",
+        "projectUniqueName": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj",
         "projectName": "Conference.Data",
-        "projectPath": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj",
+        "projectPath": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\Conference.Data.csproj",
         "packagesPath": "C:\\Users\\Marius\\.nuget\\packages\\",
-        "outputPath": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\obj\\",
+        "outputPath": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj": {
-                "projectPath": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj"
+              "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj": {
+                "projectPath": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj": {
+    "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj",
+        "projectUniqueName": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj",
         "projectName": "Conference.Domain",
-        "projectPath": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj",
+        "projectPath": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\Conference.Domain.csproj",
         "packagesPath": "C:\\Users\\Marius\\.nuget\\packages\\",
-        "outputPath": "d:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\obj\\",
+        "outputPath": "D:\\IT\\SIIC Seria5 .net\\GIT UPLOAD\\finalproject-MariusSimion79\\Conference.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

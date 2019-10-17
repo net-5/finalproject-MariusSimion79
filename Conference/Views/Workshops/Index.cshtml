@@ -13,15 +13,7 @@
         <div class="parent row">
             @foreach (var item in Model)
             {
-                <div class="col-lg-3 child workshop">
-                    <div class="text-big mv fixed">
-                        <a class="name" href="aici o sa pui adresa generata">@Html.DisplayFor(modelItem => item.Name)</a>
-                    </div>
-
-                    <span class="sub-title mv">@Html.DisplayFor(modelItem => item.SpeakerId)</span>
-                    <a target="_blank" href="https://www.eventbrite.com" class="btn btn-primary">Register</a>
-
-                </div>
+                <partial name="_Workshops" model="item" />
             }
 
 

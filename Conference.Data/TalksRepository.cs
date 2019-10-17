@@ -1,4 +1,5 @@
 ﻿using Conference.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +26,7 @@ namespace Conference.Data
         }
         public IEnumerable<Talks> GetAllTalks()
         {
-            return conferenceContext.Talks.ToList();
+            return conferenceContext.Talks.Include(x => x.Speaker).ToList();
         }
         public Talks AddTalk(Talks talkToBeAdded)
         {
@@ -37,7 +38,7 @@ namespace Conference.Data
 
         public Talks GetTalkById(int id)
         {
-            return conferenceContext.Talks.Find(id);
+            return conferenceContext.Talks.Include(x => x.Speaker).Where(x => x.Id == id).First();
         }
 
 

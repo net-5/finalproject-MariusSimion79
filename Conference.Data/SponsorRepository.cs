@@ -1,4 +1,5 @@
 ﻿using Conference.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +26,7 @@ namespace Conference.Data
         }
         public IEnumerable<Sponsors> GetAllSponsors()
         {
-            return conferenceContext.Sponsors.ToList();
+            return conferenceContext.Sponsors.Include(x => x.SponsorType).ToList();
         }
         public Sponsors AddSponsor(Sponsors sponsorToBeAdded)
         {

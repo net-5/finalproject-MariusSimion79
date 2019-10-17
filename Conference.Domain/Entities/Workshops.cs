@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+
 
 namespace Conference.Domain.Entities
 {
     public partial class Workshops
     {
+
+
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
@@ -16,5 +20,10 @@ namespace Conference.Domain.Entities
         public string RegistrationLink { get; set; }
 
         public virtual Speakers Speaker { get; set; }
+
+
+
+
+
     }
 }

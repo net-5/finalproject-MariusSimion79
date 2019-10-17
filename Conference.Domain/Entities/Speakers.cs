@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Conference.Domain.Entities
 {
@@ -9,7 +10,7 @@ namespace Conference.Domain.Entities
         {
             Photos = new HashSet<Photos>();
             Talks = new HashSet<Talks>();
-            Workshops = new HashSet<Workshops>();
+            Workshops = new List<Workshops>();
         }
 
         public int Id { get; set; }
@@ -28,12 +29,19 @@ namespace Conference.Domain.Entities
         public string Description { get; set; }
         public string PageSlug { get; set; }
         public string Edition { get; set; }
-        
+
 
 
         public virtual ICollection<Photos> Photos { get; set; }
         public virtual ICollection<Talks> Talks { get; set; }
         public virtual ICollection<Workshops> Workshops { get; set; }
-
+        public List<Talks> GetAllTalks()
+        {
+            return Talks.ToList();
+        }
+        public List<Workshops> GetAllWorkshops()
+        {
+            return Workshops.ToList();
+        }
     }
 }
